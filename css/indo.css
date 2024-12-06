@@ -225,7 +225,7 @@ div.intro-landing h2 {
 /*links ccs end*/
 /*landing star*/
 .landing {
-    background-image: url(../photo/10.jpg);
+       background-image: url(../photo/10.jpg);
     background-size: cover;
     height: calc(100vh - 57px);
     position: relative;
