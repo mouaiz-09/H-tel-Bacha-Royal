@@ -225,7 +225,7 @@ div.intro-landing h2 {
 /*links ccs end*/
 /*landing star*/
 .landing {
-       background-image: url(../photo/10.jpg);
+        background-image: url(https://scontent.fqfd1-2.fna.fbcdn.net/v/t39.30808-6/460608292_508385581899286_6304003794098414787_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=KHoViCM5i9wQ7kNvgECHi8R&_nc_zt=23&_nc_ht=scontent.fqfd1-2.fna&_nc_gid=AAKGbOZhPkJGsHSymuqJmzV&oh=00_AYDHvRGQ5EekbDIu_mCTaSO2vymEQnn-Y6WCrJoo7ywG8A&oe=67592A14);
     background-size: cover;
     height: calc(100vh - 57px);
     position: relative;
