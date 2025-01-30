@@ -27,20 +27,18 @@
 }
 
 body {
-    /*google fonts*/
-    font-family: "Work Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    background-color: #727272;
+    
+    background-color: #1f1c1c;
 
 }
 
-.contuner {
-    margin: auto;
-    padding-left: 10px;
-    padding-right: 10px;
+.da {
+    height: 100vh;
+    width: 100%;
+    padding: 0;
 }
+
+
 
 /*resonsif*/
 /*small*/
@@ -83,8 +81,8 @@ div.intro-landing h2 {
     position: sticky;
     top: 0px;
     z-index: 1;
-    background-color: #727272;
-
+  
+    background-color: #1f1c1c;
 }
 
 .header .contuner {
@@ -119,7 +117,7 @@ div.intro-landing h2 {
 
 }
 
-.ss {}
+
 
 /*icons star*/
 .header .links .icons {
@@ -153,13 +151,10 @@ div.intro-landing h2 {
 .a2 {
     width: 60%;
 }
-
-.header .links:hover .icons span {
+.a3 {
     width: 100%;
 }
-
-
-.a3 {
+.ad{
     width: 100%;
 }
 
@@ -177,12 +172,14 @@ div.intro-landing h2 {
     min-width: 200px;
     margin-top: 10px;
     border-radius: 20px;
-    display: none;
+
     transition: 0.3s;
     z-index: 1;
 
 }
-
+.h{
+    display: none;
+}
 .header .links ul::before {
 
     content: '';
@@ -193,7 +190,7 @@ div.intro-landing h2 {
     right: 13px;
 }
 
-.header .links:hover ul {
+.blook {
     display: block;
 }
 
@@ -225,11 +222,12 @@ div.intro-landing h2 {
 /*links ccs end*/
 /*landing star*/
 .landing {
-   background-image: url(../photo/10.jpg);
+    background-image: url(../photo/10.jpg);
     background-size: cover;
     height: calc(100vh - 57px);
     position: relative;
     background-attachment: fixed;
+    border-radius: 15px;
 
 }
 
@@ -246,6 +244,8 @@ div.intro-landing h2 {
     width: 600px;
     max-width: 100%;
     text-align: center;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 .landing .intro-landing p {
@@ -282,7 +282,8 @@ h2 {
 
 .dz {
     margin-top: 5px;
-    background-color: #727272;
+  
+    background-color: #1f1c1c;
     text-align: center;
 }
 
@@ -294,7 +295,7 @@ h2 {
 }
 
 .tes h3 {
-    font-family: "Pacifico", serif !important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
@@ -333,50 +334,17 @@ h2 {
     color: black;
     text-transform: capitalize;
     transition: 0.6s ease-in-out;
-
-
-
+flex-grow: 2;
+flex-wrap: wrap;
 }
 
-.card:hover {
-    box-shadow: 20px 20px 15px #1a1919;
 
-
-}
-
-.card:hover h3 {
-    text-shadow: 0px 3px 15px #615d5d;
-    color: rgb(0, 0, 0);
-
-
-
-}
-
-.card:hover h3:last-child {
-    color: red;
-    font-size: 25px;
-    text-shadow: 0px 3px 15px #000000;
-    font-family: cursive;
-    font-weight: 900;
-    text-transform: capitalize;
-}
-
-.card:not(last-child) {
-    flex-grow: 2;
-}
-
-.card:hover h3:last-child::after {
-    content: '!';
-    padding: 2px;
-
-}
 
 
 .card .imger {
     width: 100% !important;
-
-    overflow: hidden;
-    border-radius: 30px;
+ overflow: hidden;
+  border-radius: 15px;
     margin: auto;
 }
 
@@ -433,219 +401,25 @@ h2 {
 
 /*sere end*/
 
-/*form */
-.i {
-    width: 100wh;
-    padding: 30px;
-    background-color: #087c71;
-}
-
-.i .contuner {
-    padding: 5px;
-}
-
-.contuner .text {
-    text-align: center;
-}
-
-.contuner form {
-
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    flex-wrap: wrap;
-}
-
-form input {
-    width: 300px !important;
-    height: 50px !important;
-    border-radius: 20px;
-    border: none;
-    font-family: "Borel", cursive;
-    font-weight: 400;
-    font-style: normal;
-    color: black;
-
-}
-
-form .di1 {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    width: 1fr;
-    height: 50%;
-    flex-wrap: wrap;
-}
-
-.di1 div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-grow: 1;
-
-}
-
-label {
-    font-family: "Borel", cursive;
-    font-weight: 400;
-    font-style: normal;
-    color: whitesmoke;
-    text-transform: capitalize;
-    margin: 5px;
-
-}
-
-label::after {
-    content: ':';
-}
-
-input:focus {
-    font-family: "Borel", cursive;
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(0, 183, 255);
-    text-transform: capitalize;
-    outline: 3.5px solid rgb(1, 159, 180);
-}
-
-.di {
-    width: 1fr;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-}
-
-.di div {
-    display: flex;
-    margin: 0;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-}
-
-.di .serv {
-
-    display: flex;
-    flex-direction: row !important;
-}
-
-.submit {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.submit input {
-    width: 250px !important;
-    background-color: #ff0505be;
-    color: whitesmoke;
-    transition: 0.3s;
-    text-align: center;
-    margin: auto;
-    font-family: "Pacifico", serif !important;
-    text-transform: capitalize;
-
-}
-
-.submit input:hover {
-    background-color: #ff0505;
-    text-align: center;
-    text-transform: capitalize;
-    width: 300px !important;
-}
-
-.dat input {
-    color: whitesmoke;
-}
-
-.dat input {
-    color: #000000;
-}
-
-select {
-    background-color: whitesmoke;
-    border-radius: 30px;
-}
-
-option {
-
-    border-radius: 30px;
-    color: rgb(0, 0, 0);
-    font-family: cursive;
-}
-
 /*countect end*
 /*foter*/
 .fote {
-    width: 50%;
-    margin: auto;
-    padding: 20px;
+    width: 100%;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    background-color: #000000d3;
+    border-radius: 30px;
 
 }
 
-.fote .div1 {
-    display: flex;
-    gap: 50px;
-}
-
-.fote .div1 a {
-    text-decoration: none;
-    font-family: cursive;
-    font-weight: 400;
-    font-style: normal;
-    color: whitesmoke;
-    text-transform: capitalize;
-}
-
-.di2 {
-    text-align: center;
-}
-
-.di2 h2 {
-    font-family: "Pacifico", serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-    margin-top: 5px;
-}
-
-.di2 p {
-    font-family: "Pacifico", serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    margin-top: 5px;
-}
 
 @media only screen and (max-width: 768px) {
-    div .tag .t {
-        width: 100% !important;
-    }
 
-    div .d2 {
-        width: 100% !important;
-    }
 
-    div .d2 .scour {
-        width: 50 !important;
-        text-align: center !important;
-    }
 
     div .sd {
         float: left !important;
@@ -653,51 +427,38 @@ option {
         bottom: 5px;
         left: 10px;
     }
+    div .d4 {
+        width: 80% !important;
+        padding: 10px;
+    }
+    div .sx {
+       display: none;
+    }
 }
 
-.sd {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #3f3f3f;
-    text-align: center;
+
+.d4 {
+    width:30%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    float: left;
-    position: sticky;
-    bottom: 5px;
-    left: 10px;
+    justify-content: space-between;
+    align-items: center;
+ & a{
+    color: whitesmoke;
+    text-decoration: none;
 
-
+ } 
 }
-
-.sd .tooltiptext {
-
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    top: -5px;
-    left: 110%;
-}
-
-.sd .tooltiptext::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    right: 100%;
-    margin-top: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: transparent black transparent transparent;
-}
-
-.sd:hover .tooltiptext {
-    visibility: visible;
+.sx{
+    width: 100%;
+    color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: start;
+   align-items: center;
+ padding: 0 20px;
+ font-family: cursive;
+ text-transform: capitalize;
+    & a{
+        text-decoration: none;
+        color: rgba(255, 251, 0, 0.918);
+    }
 }
