@@ -1,9 +1,12 @@
+<div align=center>
+ 
 # 🏨 Hotel Simple ✨
+</div>
+
 
 ## 📖 Project Description
 
 **Hotel Simple** is a modern, responsive website that showcases a sleek hotel with an elegant design. It provides detailed information about the hotel's amenities, room types, services, and location, making it easy for visitors to explore what the hotel has to offer. 🏩✨
-
 ## 🌟 Features
 - 📱 **Responsive Design:** Seamless experience on all devices.
 - 🖼 **Image Galleries:** Stunning photos of the hotel’s interior and exterior.
