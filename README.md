@@ -19,7 +19,6 @@
 ## 🚀 Technologies Used
 - **HTML** and **CSS** for building and styling the website.
 - **JavaScript** for interactive features and dynamic content.
-- **CSS Frameworks** (e.g., Bootstrap) for responsive design.
 - **APIs** for potential booking or contact functionalities.
 
 ## 🤝 Contribution
